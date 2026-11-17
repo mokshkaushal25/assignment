@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 - Block and Inline Elements</title>
+    <style>
+        .block {
+            background-color: #5F8A8B;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .inline {
+            background-color: #7CFC00;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="block">Block 1</div>
+    <div class="block">Block 2</div>
+
+    <span class="inline">Inline 1</span>
+    <span class="inline">Inline 2</span>
+    <span class="inline">Inline 3</span>
+
+</body>
+</html>
