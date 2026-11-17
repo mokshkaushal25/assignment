@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4 - Semantic Elements</title>
+</head>
+<body>
+
+    <header>
+        <h1>College Portal</h1>
+        <nav>
+            <a href="https://www.abes.ac.in/">Home</a> | <a href="https://www.abes.ac.in/courses-offered.html#progs-offered-description">Courses</a>
+        </nav>
+    </header>
+            <h2>Admission Open</h2>
+            <p  style="text-align:left">Apply before 30 June.</p>
+            <p  style="text-align:left" >Notice: Library closed Sunday.</p>
+        <p style="text-align:left">&copy; 2026 College</p>
+</body>
+</html>
