@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment 18 - ABC College Admission 2026</title>
+    <style>
+        header {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        footer {
+            background-color: #3366cc;
+            color: white;
+            text-align: center;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ABC College Admission 2026</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Courses and Fees</h2>
+
+            <table border="1">
+                <caption>Available Courses</caption>
+                <tr>
+                    <th>Course</th>
+                    <th>Seats</th>
+                    <th>Fees</th>
+                </tr>
+                <tr>
+                    <td>B.Tech CSE</td>
+                    <td>120</td>
+                    <td>₹90,000</td>
+                </tr>
+                <tr>
+                    <td>BCA</td>
+                    <td>60</td>
+                    <td>₹45,000</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <form method="post" action="submit.php">
+                <fieldset>
+                    <legend>Application Form</legend>
+
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" required>
+                    <br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" required>
+                    <br><br>
+
+                    <label for="course">Course:</label><br>
+                    <select id="course">
+                        <option>B.Tech CSE</option>
+                        <option>BCA</option>
+                    </select>
+                    <br><br>
+
+                    <label for="statement">Statement:</label><br>
+                    <textarea id="statement" rows="3" cols="30"></textarea>
+                    <br><br>
+
+                    <input type="submit" value="Apply">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 ABC College</p>
+    </footer>
+
+</body>
+</html>
