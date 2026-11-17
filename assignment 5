@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment 5 - Lists</title>
+</head>
+<body>
+
+    <b><h3>Unordered</h3></b>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <b><h3>Ordered</h3></b>
+    <ol>
+        <li>Install VS Code</li>
+        <li>Create file</li>
+        <li>Open in browser</li>
+    </ol>
+
+    <b><h3>Description</h3></b>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+
+</body>
+</html>
