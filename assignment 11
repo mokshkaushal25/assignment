@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment 11 - Accessibility</title>
+</head>
+<body>
+
+    <a href="#main">Skip to main content</a>
+
+    <nav aria-label="Main Navigation">
+        <a href="https://www.abes.ac.in/">Home</a>
+        <a href="https://www.abes.ac.in/contact-us.html">Help</a>
+    </nav>
+
+    <main id="main">
+        <h1>Accessible Page</h1>
+
+        <img src=""C:\Users\User\Pictures\logo.png"" alt="ABC College building">
+
+        <br><br>
+
+        <form role="search">
+            <label for="search">Search:</label>
+            <input type="search" id="search" aria-label="Search the site">
+        </form>
+    </main>
+
+</body>
+</html>
