@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 8 - Hyperlinks and Images</title>
+</head>
+<body id="top">
+
+    <h2>Links demo</h2>
+
+    <a href="https://www.abes.ac.in/contact-us.html" target="_blank">External link</a>
+    <br>
+
+    <a href="#bottom">Jump to bottom</a>
+    <br>
+
+    <a href="info@abes.ac.in">Email us</a>
+    <br>
+
+    <a href="https://www.abes.ac.in/">
+        <img src=""C:\Users\User\Pictures\logo.png"" alt="Logo" width="100">
+    </a>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <p id="bottom">Bottom. <a href="#top">Back to top</a></p>
+
+</body>
+</html>
